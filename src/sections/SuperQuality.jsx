@@ -1,5 +1,6 @@
 import Button from "../components/Button"
 import {shoe8} from "../assets/images"
+import { arrowRight } from "../assets/icons"
 
 const SuperQuality = () => {
   return (
@@ -9,15 +10,13 @@ const SuperQuality = () => {
           We Provide You <span className="text-coral-red">Super </span>
           <span className="text-coral-red">Quality </span>
           Shoes
-          <br />
-          <span className="text-coral-red mt-3 inline-block">Nike </span> Shoes
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
           Ensuring premium comfort and style, our meticulously crafted footwork is designed to elevate your experience, providing you with unmatched quality, innovation and a touch of elegance.
         </p>
         <p className="mt-6 lg:max-w-lg info-text">Our dedication to detail and excellence insures your statisfaction</p>
         <div className="mt-11">
-          <Button label={"View Details"}/>
+          <Button label={"Shop now"} iconURL={arrowRight}/>
         </div>
       </div>
 
